@@ -1,0 +1,17 @@
+{
+  "name": "newnewtwitter diewland mod",
+  "version": "1.0.0",
+  "description": "A little bit more Twitter CSS",
+/*
+  "icons": {
+    "48" : "48.png",
+    "128" : "128.png"
+  },
+*/
+  "content_scripts": [
+    {
+      "matches": [ "*://twitter.com/*" ],
+      "css": ["style.css"]
+    }
+  ]
+}
