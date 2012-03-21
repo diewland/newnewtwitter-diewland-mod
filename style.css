@@ -1,2 +1,3 @@
 textarea.twitter-anywhere-tweet-box-editor { font-size: 14px !important; }
 .wrapper { background: none !important; }
+.hovered-stream-item.stream-item { background-color: #DDD !important; }
